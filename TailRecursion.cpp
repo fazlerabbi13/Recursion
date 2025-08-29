@@ -11,6 +11,6 @@ void tail(int n) {
 }
 
 int main() {
-    tail(5);
+    // tail(5);
     return 0;
 }
