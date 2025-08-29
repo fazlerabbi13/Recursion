@@ -11,6 +11,6 @@ void show(int n) {
 }
 
 int main() {
-    // show(5);
+    show(5);
     return 0;
 }
