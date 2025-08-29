@@ -2,8 +2,8 @@
 using namespace std;
 
 void show(int n) {
-    // if (n == 0)
-    //     return;
+    if (n == 0)
+        return;
     cout << n << " ";
 
     // Direct recursive call
