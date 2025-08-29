@@ -7,8 +7,8 @@ void tree(int n) {
     cout << n << " ";
 
     // Two recursive calls
-    // tree(n - 1);
-    // tree(n - 1);
+    tree(n - 1);
+    tree(n - 1);
 }
 
 int main() {
