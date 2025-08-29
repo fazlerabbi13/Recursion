@@ -10,6 +10,6 @@ void head(int n) {
 }
 
 int main() {
-    head(5);
+    // head(5);
     return 0;
 }
