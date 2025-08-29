@@ -12,6 +12,6 @@ void tree(int n) {
 }
 
 int main() {
-    tree(3);
+    // tree(3);
     return 0;
 }
