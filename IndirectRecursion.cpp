@@ -19,6 +19,6 @@ void funcB(int n) {
 }
 
 int main() {
-    // funcA(10);
+    funcA(10);
     return 0;
 }
