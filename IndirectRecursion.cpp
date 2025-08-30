@@ -2,7 +2,7 @@
 using namespace std;
 
 void funcA(int);
-// void funcB(int);
+void funcB(int);
 
 void funcA(int n) {
     if (n > 0) {
@@ -11,12 +11,12 @@ void funcA(int n) {
     }
 }
 
-// void funcB(int n) {
-//     if (n > 0) {
-//         cout << n << " ";
-//         funcA(n / 2);
-//     }
-// }
+void funcB(int n) {
+    if (n > 0) {
+        cout << n << " ";
+        funcA(n / 2);
+    }
+}
 
 int main() {
     funcA(10);
