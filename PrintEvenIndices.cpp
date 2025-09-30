@@ -1,12 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 void printEvenReverse(vector<int>& arr, int index){
-    // if(index < 0){
+    if(index < 0){
+        return;
+    }
+
+    // if(index == arr.size()){
     //     return;
     // }
-
-    if(index == arr.size())
-    return;
+    
 
     // if(index % 2 == 0){
     //     // if i take this out put it traverse from end to start of an array
@@ -15,7 +17,7 @@ void printEvenReverse(vector<int>& arr, int index){
     cout << arr[index] << " ";
 
     
-    printEvenReverse(arr, index+1);
+    printEvenReverse(arr, index-1);
 }
 
 int main(){
@@ -28,7 +30,7 @@ int main(){
         cin >> arr[i]; 
     }
 
-    printEvenReverse(arr,0);
+    printEvenReverse(arr,N-1);
 
     return 0;
 }
