@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 void printEvenReverse(vector<int>& arr, int index){
     if(index < 0){
         return;
@@ -10,11 +11,11 @@ void printEvenReverse(vector<int>& arr, int index){
     // }
     
 
-    // if(index % 2 == 0){
-    //     // if i take this out put it traverse from end to start of an array
-    //     cout << arr[index] << " ";
-    // }
-    cout << arr[index] << " ";
+    if(index % 2 == 0){
+        // if i take this output it traverse from end to start of an array
+        cout << arr[index] << " ";
+    }
+    // cout << arr[index] << " ";
 
     
     printEvenReverse(arr, index-1);
