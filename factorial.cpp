@@ -3,7 +3,7 @@ using namespace std;
 
 #define ll long long
 
-int factorial(int N){
+ll factorial(int N){
     if(N == 0){
         return 1;
     }
